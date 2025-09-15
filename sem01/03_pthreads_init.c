@@ -28,7 +28,6 @@ int main() {
 
     pthread_join(thread1, NULL);
 
-    printf("%d\n", d);
-
+    printf("%d\n", ptr->a + ptr->b);
 
 }
